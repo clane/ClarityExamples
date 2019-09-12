@@ -1,3 +1,5 @@
+
+<h2>Dropdown - implemented as an ARIA Menu</h2>
 <clr-dropdown [clrCloseMenuOnItemClick]="false">
   <button clrDropdownTrigger aria-label="Dropdown demo button">
       <clr-icon shape="error" class="is-error" size="24"></clr-icon>
@@ -12,5 +14,17 @@
       <div clrDropdownItem>Link 2</div>
   </clr-dropdown-menu>
 </clr-dropdown>
+
+<h3>Dropdown Test Results</h3>
+
+<pre>
+  nvda/firefox sounding good
+  nvda/edge is working well 
+  nvda/chrome looking good
+  nvda/ie11 looking good
+</pre>
+
+<h2>Live Region</h2> 
+<app-live-region></app-live-region>
 
 <router-outlet></router-outlet>
